@@ -2,26 +2,49 @@
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
-}
-body{
+    }
+    body{
     font-family: -apple-system, BlinkMacSystemFont,
-     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
-background-image: url(background.jpeg);
-background-attachment: fixed;
-background-size: cover;
-}
-.nav-bar{
+    background-image: url(background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    .nav-bar{
     width: 100%;
     height: 70px;
     padding: 14px 30px;
     background-color: #1b4cd3;
     position: relative;
-}
-.nav-bar .nav-header{
+    }
+    .nav-bar .nav-header{
     display: inline;
-}
-.nav-bar .nav-header .nav-logo{
+    }
+    .nav-bar .nav-header .nav-logo{
     display: inline-block;
     margin-top: -7px;
-}
+    }
+    .nav-bar .nav-links{
+        float: right;
+        font-size: 17px;
+        display: inline;
+    }
+    .nav-bar .nav-links .loginBtn{
+        display: inline-block;
+        padding: 5px 15px;
+        font-size: 17px;
+        margin-left: 20px;
+        color: rgb(9,14 , 97);  
+    }
+    .nav-bar .nav-links a{
+        padding: 10px 12px;
+        text-decoration: none;
+        font-weight: 550;
+        color: white;
+    }
+    /* Hover effect on the nav-links*/
+    .nav-bar .nav-links a:hover{
+        background-color: rgba(0, 0, 0,0.3 );
+    }
+    
